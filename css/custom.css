@@ -235,6 +235,9 @@ nav .login-btn{
     border: 0;
 }
 @media(max-width: 700px){
+    .omni h3{
+        margin-top: 30px;
+    }
     .omni p.call-to-action .button{
         width: 100%;
     }
