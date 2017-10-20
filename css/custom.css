@@ -7,7 +7,7 @@
     --secondary-color: #e62e46;
 }
 a{
-    color: var(--main-color);
+    color: #ba2539;;
     text-decoration: none;
 }
 .bg-green{
@@ -64,10 +64,10 @@ nav ul li{
     padding: 0 15px;
     font-size: 14px;
     margin-bottom: 0;
-    color: var(--main-color);
+    color: #ba2539;;
 }
 nav .login-btn{
-    background-color: var(--main-color);
+    background-color: #ba2539;;
     color: #fff;
     border: 0;
     padding: 0 50px;
@@ -99,7 +99,7 @@ nav .login-btn{
     .mobile span{
         width: 30px;
         height: 3px;
-        background-color: var(--main-color);
+        background-color: #ba2539;;
         display: block;
         margin-bottom: 7px;
     }
@@ -114,7 +114,7 @@ nav .login-btn{
         content: "";
         width: 30px;
         height: 3px;
-        background-color: var(--main-color);
+        background-color: #ba2539;;
         display: block;
         margin-bottom: 5px;
         transform: rotate(45deg);
@@ -123,7 +123,7 @@ nav .login-btn{
         content: "";
         width: 30px;
         height: 3px;
-        background-color: var(--main-color);
+        background-color: #ba2539;;
         display: block;
         margin-bottom: 5px;
         transform: rotate(-45deg);
@@ -176,7 +176,7 @@ nav .login-btn{
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: var(--secondary-color);
+    background-color: #e62e46;
     /* background: linear-gradient(150deg,#ba2539 15%,#05d5ff 70%,#a6ffcb 94%); */
     display: flex;
     align-items: center;
@@ -190,7 +190,7 @@ nav .login-btn{
     bottom: -120px;
     width: 100%;
     height:200px;
-    background-color: var(--secondary-color);
+    background-color: #e62e46;
     transform: skewY(-6deg);
     z-index: -1;
 }
@@ -225,13 +225,13 @@ nav .login-btn{
     /* box-shadow: 0 0 2px 0 #f1f1f1;  */
 }
 .omni input[type=text]{
-    background-color: var(--main-color);
+    background-color: #ba2539;;
     width: 40%;
     text-align: center;
 }
 .omni input[type=submit]{
     background-color: #fff;
-    color: var(--main-color);
+    color: #ba2539;;
     border: 0;
 }
 @media(max-width: 700px){
@@ -254,7 +254,7 @@ nav .login-btn{
         /* box-shadow: 0 0 2px 0 #f1f1f1;  */
     }
     .omni input[type=text]{
-        background-color: var(--main-color);
+        background-color: #ba2539;;
         width: 100%;
         text-align: center;
     }
@@ -294,7 +294,7 @@ nav .login-btn{
 }
 .intro hr{
     margin: 1em 0;
-    border: 1px solid var(--main-color);
+    border: 1px solid #ba2539;;
     /* width: 70%; */
     margin: 0 20%;
     margin-bottom: 20px;
@@ -311,7 +311,7 @@ nav .login-btn{
     margin: 0;
     width: 100%;
     height: 250px;;
-    border-bottom: 4px solid var(--main-color);
+    border-bottom: 4px solid #ba2539;;
 }
 .intro figure img{
     width: 100%;
@@ -402,7 +402,7 @@ nav .login-btn{
     width: 100%;
     height: auto;
     padding: 50px 0;
-    background-color: var(--secondary-color);
+    background-color: #e62e46;
     color: #fff;
 }
 .footer hr{
@@ -419,7 +419,7 @@ nav .login-btn{
     
 }
 .footer-note{
-    background-color: var(--main-color);
+    background-color: #ba2539;;
     color: #fff;
     line-height: 50px;
     vertical-align: middle;
