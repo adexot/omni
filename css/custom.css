@@ -214,7 +214,6 @@ nav .login-btn{
     width: 100%;
     height: 100%;
     background-color: #e62e46;
-    background: linear-gradient(150deg,#ba2539 15%,#05d5ff 70%,#a6ffcb 94%);
     display: flex;
     align-items: center;
     color: #fff;
@@ -400,37 +399,7 @@ nav .login-btn{
     transform: translateY(-10px);
 }
 
-.services figure{
-    position: relative;
-    width: 100%;
-    height: 200px;
-}
-.services figure img{
-    width: 100%;
-    height: 200px;
-}
-.services figure figcaption{
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: -15px;
-    left: 0;
-    text-align: center;
-    background: linear-gradient(180deg,rgba(255,0,0,0),#e62e46);
-    color: #fff;
-}
-.services__description{
-    height: 150px;
-    padding: 20px;
-    background-color: #f9f2f2;
-    border-bottom: 2px solid #e62e46;
-}
-.services__description--large{
-    height: 200px;
-    padding: 50px 80px;
-    background-color: #f9f2f2;
-    border-bottom: 2px solid #e62e46;
-}
+
 
 .customers{
     position: relative;
@@ -539,7 +508,7 @@ nav .login-btn{
 /* About page Style */
 .about{
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     background: url(../images/bg_2.jpg) no-repeat center;
     background-size: cover;
 }
@@ -547,9 +516,9 @@ nav .login-btn{
 .text-container{
     position: absolute;
     max-width: 600px;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 .about-container{
     max-width: 700px;
@@ -576,13 +545,10 @@ nav .login-btn{
     }
 }
 
-
-
-
 /* Pricing page Style */
 .pricing{
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     background: url(../images/bg_3.jpg) no-repeat center;
     background-size: cover;
 }
@@ -716,5 +682,61 @@ input[type="submit"]{
     .form-input{
         display: block;
         width: 100%;
+    }
+}
+
+/* Services Page */
+.service{
+    width: 100%;
+    height: 40vh;
+    background: url(../images/bg_3.jpg) no-repeat center;
+    background-size: cover;
+}
+.services figure{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.services figure img{
+    width: 100%;
+    height: 200px;
+}
+.services figure figcaption{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: -15px;
+    left: 0;
+    text-align: center;
+    background: linear-gradient(180deg,rgba(255,0,0,0),#e62e46);
+    color: #fff;
+}
+.services__description{
+    height: 150px;
+    padding: 20px;
+    background-color: #f9f2f2;
+    border-bottom: 2px solid #e62e46;
+}
+.services__description--large{
+    height: 200px;
+    padding: 50px 80px;
+    background-color: #f9f2f2;
+    border-bottom: 2px solid #e62e46;
+}
+
+@media(max-width: 700px){
+    .customer-button{
+        top: 50px;
+    }
+    .services__description{
+        height: 150px;
+        padding: 10px;
+        background-color: #f9f2f2;
+        border-bottom: 2px solid #e62e46;
+    }
+    .services__description--large{
+        padding: 20px;
+        background-color: #f9f2f2;
+        border-bottom: 2px solid #e62e46;
     }
 }
