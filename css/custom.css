@@ -135,7 +135,7 @@ nav .login-btn{
     .mobile span{
         width: 30px;
         height: 3px;
-        background-color: #ba2539;;
+        background-color: #ba2539;
         display: block;
         margin-bottom: 7px;
     }
@@ -151,7 +151,7 @@ nav .login-btn{
         content: "";
         width: 30px;
         height: 3px;
-        background-color: #ba2539;;
+        background-color: #ba2539;
         display: block;
         margin-bottom: 5px;
         transform: rotate(45deg);
@@ -160,7 +160,7 @@ nav .login-btn{
         content: "";
         width: 30px;
         height: 3px;
-        background-color: #ba2539;;
+        background-color: #ba2539;
         display: block;
         margin-bottom: 5px;
         transform: rotate(-45deg);
@@ -270,13 +270,16 @@ nav .login-btn{
     border-radius: 25px;
     height: 50px;
     color: #fff;
-    /* box-shadow: 0 0 2px 0 #f1f1f1;  */
 }
 .omni input[type=text]{
     background-color: #ba2539;;
     width: 40%;
     text-align: center;
 }
+.omni input[type=text]::placeholder {
+    color: #fff ;
+}
+
 .omni input[type=submit]{
     background-color: #fff;
     color: #ba2539;;
@@ -509,7 +512,7 @@ nav .login-btn{
 .about{
     width: 100%;
     height: 50vh;
-    background: url(../images/bg_2.jpg) no-repeat center;
+    background: url(../images/about_us.jpg) no-repeat center;
     background-size: cover;
 }
 

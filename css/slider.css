@@ -82,26 +82,26 @@ ul.kf-slider li {
   background-position: 50%;
   z-index: 0;
   opacity: 0;
-  -webkit-animation: fade-out 9s infinite both;
-  -moz-animation: fade-out 9s infinite both;
-  animation: fade-out 9s infinite both;
+  -webkit-animation: fade-out 18s infinite both;
+  -moz-animation: fade-out 18s infinite both;
+  animation: fade-out 18s infinite both;
   background-image: url(../images/bg_1.jpg); }
   @media (min-width: 58em) {
     ul.kf-slider li {
       background-image: url(../images/bg_1.jpg); } }
 ul.kf-slider li:nth-child(2) {
   background-image: url(../images/bg_2.jpg);
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
-  animation-delay: 3s; }
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s; }
   @media (min-width: 58em) {
     ul.kf-slider li:nth-child(2) {
       background-image: url(../images/bg_2.jpg); } }
 ul.kf-slider li:nth-child(3) {
   background-image: url(../images/bg_3.jpg);
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s; }
   @media (min-width: 58em) {
     ul.kf-slider li:nth-child(3) {
       background-image: url(../images/bg_3.jpg); } }
