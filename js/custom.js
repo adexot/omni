@@ -16,6 +16,9 @@ $(document).ready(function(){
     var url = document.location.href.split('/');
     var pattern = stripUrl(url);   
     $('nav div ul li a').each(function(){
+        if(pattern.length < 1){
+            return;
+        }
         var refLocation = $(this).attr('data-text');
         //if the ref location has an s affter it
         var refLocations = $(this).attr('data-text') + 's';
